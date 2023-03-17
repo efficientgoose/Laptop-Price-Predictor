@@ -8,6 +8,8 @@ df = pickle.load(open('df.pkl', 'rb'))
 
 st.title("Laptop Price Predictor")
 
+st.markdown("Just fill out the specifications you need for you laptop and hit the 'Predict Price' button and voila! you get the estimated price for the laptop.")
+
 # brand
 company = st.selectbox('Brand', df['Company'].unique())
 
@@ -24,7 +26,7 @@ weight = st.selectbox('Weight (in KG)', [1.25, 1.50, 1.75, 2.00, 2.25, 2.50, 2.7
 touchscreen = st.selectbox('Touchscreen', ['No', 'Yes'])
 
 # IPS
-ips = st.selectbox('IPS Display', ['No', 'Yes'])
+ips = st.selectbox('IPS', ['No', 'Yes'])
 
 # screen size
 screen_size = st.selectbox('Screen Size (in Inches)', [13, 14, 15.6, 17.3])
