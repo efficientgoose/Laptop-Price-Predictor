@@ -3,7 +3,7 @@
 This repository contains code, dataset and all other required files for a machine learning project that predicts the price of a laptop based on its specifications. The user can input details about the laptop such as the brand, processor, RAM, storage, and screen size, and the program will estimate the cost of the laptop.
 
 ### Here's how the project works:
-1. Go to the this link: 
+1. Go to the this link: https://ajinkode-laptop-price-predictor-app-49ikqt.streamlit.app/
 2. Input your desired specifications for the laptop like HDD, SSD, RAM, Screen Size, etc.
 3. Click the "Predict Price" Button at the bottom.
 Voila! The model has estimated a price for the laptop with giiven specifications.
