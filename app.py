@@ -18,7 +18,7 @@ type = st.selectbox('Type', df['Type Name'].unique())
 ram = st.selectbox('RAM(in GB)', [2, 4, 6, 8, 12, 16, 24, 32, 64])
 
 # weight
-weight = st.number_input('Weight of the Laptop')
+weight = st.selectbox('Weight (in KG)', [1.25, 1.50, 1.75, 2.00, 2.25, 2.50, 2.75, 3.00])
 
 # Touchscreen
 touchscreen = st.selectbox('Touchscreen', ['No', 'Yes'])
@@ -27,7 +27,7 @@ touchscreen = st.selectbox('Touchscreen', ['No', 'Yes'])
 ips = st.selectbox('IPS', ['No', 'Yes'])
 
 # screen size
-screen_size = st.number_input('Screen Size')
+screen_size = st.selectbox('Screen Size (in Inches)', [13, 14, 15.6, 17.3])
 
 # resolution
 resolution = st.selectbox('Screen Resolution',
@@ -41,7 +41,7 @@ hdd = st.selectbox('HDD(in GB)', [0, 128, 256, 512, 1024, 2048])
 
 ssd = st.selectbox('SSD(in GB)', [0, 8, 128, 256, 512, 1024])
 
-gpu = st.selectbox('GPU', df['GPU Brand'].unique())
+gpu = st.selectbox('GPU Brand', df['GPU Brand'].unique())
 
 os = st.selectbox('OS', df['OS'].unique())
 
