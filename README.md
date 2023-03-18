@@ -1,5 +1,7 @@
 # Laptop Price Predictor Repository
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ajinkode-laptop-price-predictor-app-49ikqt.streamlit.app/)
+
 This repository contains code, dataset and all other required files for a machine learning project that predicts the price of a laptop based on its specifications. The user can input details about the laptop such as the brand, processor, RAM, storage, and screen size, and the program will estimate the cost of the laptop.
 
 ### Here's how the project works:
