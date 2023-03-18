@@ -8,7 +8,7 @@ df = pickle.load(open('df.pkl', 'rb'))
 
 st.title("Laptop Price Predictor")
 
-st.markdown("Just fill out the specifications your need for you laptop and hit the 'Predict Price' button and voila! you get the estimated price for the laptop.")
+st.markdown("Just fill out the specifications your need for you laptop and hit the 'Predict Price' button, and voila! You get the estimated price for the laptop.")
 
 # brand
 company = st.selectbox('Brand', df['Company'].unique())
